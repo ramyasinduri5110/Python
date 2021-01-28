@@ -1,0 +1,20 @@
+#formatted strings
+name='Pramod'
+age=31
+
+
+#traditional way of writing a formatted string 
+print('This is the traditional way of writing a string')
+print('Hi'+name+ '.you are '+str(age)+'years old' )
+
+#string foramtting using f
+print('string formatting using f')
+print(f'Hi {name}. you are {age} years old' ) 
+
+#string formatting using format 
+print('string format using format')
+print('Hi {}. you are {} years old'.format('Ravi','28'))
+
+#string formatting with format in different positions
+print('changing the positons')
+print('Hi {1}. you are {0} years old'.format('Ramya','29'))
