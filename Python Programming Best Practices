@@ -1,0 +1,8 @@
+********** BEST PRACTICES FOR WRITING PYTHON CODE ( ANY PROGRAMMING LANGUAGE )
+#variables 
+1.snake_case
+2.start with lowercase or underscore 
+3.letters numbers and underscore 
+4.case sernsitve 
+4.constants are declared in the capital lettres . the values should never change
+5.dunder variables is with two underscores . don't create a variables with two underscores .
