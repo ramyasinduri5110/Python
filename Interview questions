@@ -1,0 +1,6 @@
+what is short circuting in python 
+
+short-circuting is stopping the execution of the expression where the outcome is already determined 
+ example :
+ 
+ print(1<2<3<4) prints the value as true . but if print(1<2>3<4) te value of the expression is determined at 2 > 3 as false . there the expression is short circuted .
