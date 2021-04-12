@@ -1,0 +1,88 @@
+1. Print the current version of python
+
+import sys
+print(sys.version)
+
+Output: 
+3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]
+==========================================================================================
+
+2. print the date and time 
+
+import datetime
+print(datetime.datetime.now())
+
+output:
+2021-04-11 18:06:47.068540
+============================================================================================
+
+3. print the area fo the circle
+
+import math
+r= (input("Enter the radius: "))
+
+if (type(r)!= float):
+    print("enter a float value ")
+    
+else :
+    Area = math.pi*r*r
+    print("The area of the circle is :" +str(Area))
+
+output: 
+Enter the radius: 1.2
+The area of the circle is :4.523893421169302
+
+=============================================================================================
+
+4. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them
+
+first_name=input("Enter the first name:")
+last_name=input("Enter the lastname:")
+print(last_name + " " + first_name)
+
+output:
+Enter the firstname: michael
+Enter the lastname: scott
+
+scott michael
+==============================================================================================================================================
+
+5. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
+
+user_input = input("enter comma separated values:")
+print(user_input.split(","))
+print(tuple(user_input.split(",")))
+
+output:
+
+enter comma separated values:2,3,4,5,6
+['2', '3', '4', '5', '6']
+('2', '3', '4', '5', '6')
+
+==========================================================================================================================================
+
+6. Write a Python program to accept a filename from the user and print the extension of that.
+
+import string
+str1=(input("Enter the filename:"))
+print(str1.split(".")[1])
+
+output:
+Enter the filename:customer.java
+java
+
+========================================================================================================================================
+
+7.Write a Python program to display the first and last colors from the following list. 
+
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0],color_list[-1])
+
+output:
+Red Black
+
+======================================================================================================================================
+
+8. 
+
+
