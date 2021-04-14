@@ -1,6 +1,62 @@
-what is short circuting in python 
+******what is short circuting in python *****
 
 short-circuting is stopping the execution of the expression where the outcome is already determined 
  example :
  
  print(1<2<3<4) prints the value as true . but if print(1<2>3<4) te value of the expression is determined at 2 > 3 as false . there the expression is short circuted .
+ 
+ 
+ ======================================================================
+ 
+ 
+***** Looping through a dictionary ********* 
+ **** to loop through the keys *******
+ user = {
+ 'name': 'golem',
+ 'age':5006,
+ 'can_swim':True
+ }
+    
+
+for item in user.keys():
+    print(item)
+
+output:
+
+name
+age
+can_swim
+
+******* to loop through the values  *******
+ user = {
+ 'name': 'golem',
+ 'age':5006,
+ 'can_swim':True
+ }
+    
+
+for item in user.values():
+    print(item)
+
+Output:
+golem
+5006
+True
+
+******* to loop through the items in the dictionary ******
+user = {
+ 'name': 'golem',
+ 'age':5006,
+ 'can_swim':True
+ }
+    
+
+for item in user.items():
+    print(item)
+  
+output:    
+('name', 'golem')
+('age', 5006)
+('can_swim', True)
+
+
