@@ -6,3 +6,29 @@
 4.case sernsitve 
 4.constants are declared in the capital lettres . the values should never change
 5.dunder variables is with two underscores . don't create a variables with two underscores .
+
+
+
+
+************************8
+ functions and types of arguments and parameters 
+ 
+#parameters
+#default parameters 
+
+def say_hello(name='shoe',emoji="**"):
+    print("hello: "+name + " expression: "+emoji)
+    
+   
+#arguments
+say_hello('ramya',":)")
+
+
+#positional arguments 
+say_hello("andrei","&!")
+
+#keyword arguments 
+#make sure to put it in order to avoid confusion 
+
+say_hello(emoji= ":(", name="listing") 
+say_hello() #will give you the default arguments
